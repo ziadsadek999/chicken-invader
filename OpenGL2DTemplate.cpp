@@ -26,7 +26,7 @@ float perpDistance(int x, int y, float a, float b, float c);
 float prepDistance(int x, int y, int a, int b);
 
 int gameStatus = 0;
-int windowWidth = 800;
+int windowWidth = 600;
 int windowHeight = 800;
 int playerPositionX = windowWidth / 2;
 int playerPositionY = windowHeight / 2;
