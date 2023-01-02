@@ -18,3 +18,4 @@ Mathematical formulae to detect the collisions between the various objects in th
 
 ## Preview
 
+![Screenshot 2023-01-03 005142](https://user-images.githubusercontent.com/68449722/210283568-a1efe95c-9eb2-425e-840f-73d393f1c642.png)
