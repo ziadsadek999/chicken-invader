@@ -52,7 +52,7 @@ void main(int argc, char** argr) {
 
     glutInitWindowSize(windowWidth, windowHeight);
     glutInitWindowPosition(startX, startY);
-    glutCreateWindow("Robotic Arm");
+    glutCreateWindow("Chicken invaders");
     glutDisplayFunc(Display);
     glutKeyboardFunc(Key);
     glutIdleFunc(Loop);
