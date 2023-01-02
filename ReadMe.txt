@@ -1,40 +1,20 @@
-========================================================================
-    CONSOLE APPLICATION : OpenGL2DTemplate Project Overview
-========================================================================
+# Chicken Invaders
+This is a simple game in two dimensions implemented using C++ and the OpenGl library as a part of the graphics course.
 
-AppWizard has created this OpenGL2DTemplate application for you.
+## Environmentand controls
+The game consists of an enemy and a player, the enemy is bigger in size and is in the top of the screen and periodically will shoot the player which is smaller in size and is in the middle of the screen. The enemy moves periodically in a horizontal direction at the top of the window while the player can move freely using the controls:
+- **W**: Moves upwards.
+- **A**: Moves downwards.
+- **S**: Moves right.
+- **D**: Moves left.
+The enemy will periodically shoot bullets on the player which will make the player lose one of thier 3 lives. While the player can shoot the enemy using the **C** Button.
 
-This file contains a summary of what you will find in each of the files that
-make up your OpenGL2DTemplate application.
+The target of the game is to finish the enemy health (which is represented by the health bar at the bottom of the screen) while avoiding the enemy bullets.
 
+Random power ups will show up on the screen. When the player colides with ot, they will be shielded from any bullets from the enemy for the next couple of seconds.
 
-OpenGL2DTemplate.vcxproj
-    This is the main project file for VC++ projects generated using an Application Wizard.
-    It contains information about the version of Visual C++ that generated the file, and
-    information about the platforms, configurations, and project features selected with the
-    Application Wizard.
+## Logic
+Mathematical formulae to detect the collisions between the various objects in the game, model them and transform them. Some of these transformations were done using the OpenGl libraries.
 
-OpenGL2DTemplate.vcxproj.filters
-    This is the filters file for VC++ projects generated using an Application Wizard. 
-    It contains information about the association between the files in your project 
-    and the filters. This association is used in the IDE to show grouping of files with
-    similar extensions under a specific node (for e.g. ".cpp" files are associated with the
-    "Source Files" filter).
+## Preview
 
-OpenGL2DTemplate.cpp
-    This is the main application source file.
-
-/////////////////////////////////////////////////////////////////////////////
-Other standard files:
-
-StdAfx.h, StdAfx.cpp
-    These files are used to build a precompiled header (PCH) file
-    named OpenGL2DTemplate.pch and a precompiled types file named StdAfx.obj.
-
-/////////////////////////////////////////////////////////////////////////////
-Other notes:
-
-AppWizard uses "TODO:" comments to indicate parts of the source code you
-should add to or customize.
-
-/////////////////////////////////////////////////////////////////////////////
