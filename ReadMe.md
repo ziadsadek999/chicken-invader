@@ -7,6 +7,8 @@ The game consists of an enemy and a player, the enemy is bigger in size and is i
 - **A**: Moves downwards.
 - **S**: Moves right.
 - **D**: Moves left.
+
+
 The enemy will periodically shoot bullets on the player which will make the player lose one of thier 3 lives. While the player can shoot the enemy using the **C** Button.
 
 The target of the game is to finish the enemy health (which is represented by the health bar at the bottom of the screen) while avoiding the enemy bullets.
